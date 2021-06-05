@@ -1,6 +1,6 @@
 <?php
 
-namespace masoudnabavi\LoginPro\App\Http\Models;
+namespace masoudnabavi\login_pro\App\Http\Models;
 
 use Browser;
 use Exception;

@@ -1,6 +1,6 @@
 <?php
 
-namespace masoudnabavi\LoginPro\App\Mail;
+namespace masoudnabavi\login_pro\App\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

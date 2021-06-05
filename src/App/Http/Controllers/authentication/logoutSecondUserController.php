@@ -1,6 +1,6 @@
 <?php
 
-namespace masoudnabavi\LoginPro\App\Http\Controllers\authentication;
+namespace masoudnabavi\login_pro\App\Http\Controllers\authentication;
 
 use App\Http\Controllers\Controller;
 use Cookie;

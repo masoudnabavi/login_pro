@@ -1,6 +1,6 @@
 <?php
 
-namespace  masoudnabavi\LoginPro\App\Http\Middleware\Auth;
+namespace  masoudnabavi\login_pro\App\Http\Middleware\Auth;
 
 use App\Http\Models\User;
 use Closure;

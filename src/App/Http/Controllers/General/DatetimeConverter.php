@@ -1,6 +1,6 @@
 <?php
 
-namespace  masoudnabavi\LoginPro\App\Http\Controllers\General;
+namespace  masoudnabavi\login_pro\App\Http\Controllers\General;
 
 use App\Http\Controllers\Controller;
 use DateTime;

@@ -1,12 +1,12 @@
 <?php
 
-namespace masoudnabavi\LoginPro\App\Http\Controllers\authentication;
+namespace masoudnabavi\login_pro\App\Http\Controllers\authentication;
 
 
 use App\Http\Controllers\Controller;
-use masoudnabavi\LoginPro\App\Mail\AuthMails;
-use masoudnabavi\LoginPro\App\Http\Models\twofactorauthentication;
-use masoudnabavi\LoginPro\App\Http\Models\User;
+use masoudnabavi\login_pro\App\Mail\AuthMails;
+use masoudnabavi\login_pro\App\Http\Models\twofactorauthentication;
+use masoudnabavi\login_pro\App\Http\Models\User;
 use Cookie;
 use Illuminate\Http\Request;
 use Mail;

@@ -1,16 +1,16 @@
 <?php
 
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\addUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\deleteUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\editUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\forgetAndChangePasswordController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\listUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\loginAsSecondUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\loginUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\logoutController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\logoutSecondUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\registerUserController;
-use masoudnabavi\LoginPro\App\Http\Controllers\authentication\twoStepAuthUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\addUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\deleteUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\editUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\forgetAndChangePasswordController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\listUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\loginAsSecondUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\loginUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\logoutController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\logoutSecondUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\registerUserController;
+use masoudnabavi\login_pro\App\Http\Controllers\authentication\twoStepAuthUserController;
 use Illuminate\Support\Facades\Route;
 
 /*

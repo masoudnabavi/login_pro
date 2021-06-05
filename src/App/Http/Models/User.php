@@ -1,9 +1,9 @@
 <?php
 
-namespace masoudnabavi\LoginPro\App\Http\Models;
+namespace masoudnabavi\login_pro\App\Http\Models;
 
 
-use masoudnabavi\LoginPro\App\Http\Controllers\General\DatetimeConverter;
+use masoudnabavi\login_pro\App\Http\Controllers\General\DatetimeConverter;
 use Dirape\Token\Token;
 use Exception;
 use Illuminate\Foundation\Auth\User as Authenticatable;

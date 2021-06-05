@@ -1,10 +1,10 @@
 <?php
 
-namespace masoudnabavi\LoginPro\App\Http\Controllers\authentication;
+namespace masoudnabavi\login_pro\App\Http\Controllers\authentication;
 
 use App\Http\Controllers\Controller;
-use masoudnabavi\LoginPro\App\Http\Models\LoginUser;
-use masoudnabavi\LoginPro\App\Http\Models\User;
+use masoudnabavi\login_pro\App\Http\Models\LoginUser;
+use masoudnabavi\login_pro\App\Http\Models\User;
 use Illuminate\Http\Request;
 use Validator;
 

@@ -5,7 +5,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Masoud",
+            "name": "MasoudNabavi",
             "email": "masoudn401@gmail.com"
         }
     ],
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "masoudnabavi\\LoginPro\\": "src/"
+            "masoudnabavi\\login_pro\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "masoudnabavi\\LoginPro\\LoginProServiceProvider"
+                "masoudnabavi\\login_pro\\login_proServiceProvider"
             ]
         }
     }

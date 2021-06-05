@@ -1,11 +1,11 @@
 <?php
 
-namespace masoudnabavi\LoginPro\Providers;
+namespace masoudnabavi\login_pro\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
 
-class LoginProServiceProvider extends ServiceProvider
+class login_proServiceProvider extends ServiceProvider
 {
     public function boot()
     {
