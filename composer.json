@@ -1,0 +1,31 @@
+{
+    "name": "masoudnabavi/login_pro",
+    "description": "This is a library for logging in and authenticating in a system that has many features...",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masoud",
+            "email": "masoudn401@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "anetwork/validation": "^2.2",
+        "dirape/token": "^2.3",
+        "hisorange/browser-detect": "^4.4",
+        "morilog/jalali": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "masoudnabavi\\LoginPro\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "masoudnabavi\\LoginPro\\LoginProServiceProvider"
+            ]
+        }
+    }
+}
