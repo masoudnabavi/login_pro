@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::middleware('Auth')->group(function () {
+//Route::middleware('authentications')->group(function () {
 Route::prefix('user')->group(function () {
 
     Route::get('login', [loginUserController::class, 'index'])->name('loginUserGet');
@@ -44,7 +44,7 @@ Route::prefix('user')->group(function () {
 //});
 
 
-Route::middleware('Auth:isLogin')->group(function () {
+Route::middleware('authentications:isLogin')->group(function () {
     Route::prefix('user')->group(function () {
 
         Route::get('dashboard', function () {

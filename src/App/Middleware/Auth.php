@@ -1,8 +1,8 @@
 <?php
 
-namespace  masoudnabavi\login_pro\App\Http\Middleware\Auth;
+namespace  masoudnabavi\login_pro\App\Http\Middleware;
 
-use App\Http\Models\User;
+use masoudnabavi\login_pro\App\Http\Models\User;
 use Closure;
 use Cookie;
 use Illuminate\Http\Request;

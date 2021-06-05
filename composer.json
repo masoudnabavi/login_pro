@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "masoudnabavi\\login_pro\\login_proServiceProvider"
+                "masoudnabavi\\login_pro\\Providers\\login_proServiceProvider"
             ]
         }
     }

@@ -27,6 +27,6 @@ class AuthMails extends Mailable
      */
     public function build()
     {
-        return $this->subject('This Is Auth Mail')->view('login_pro::mails.mailView');
+        return $this->subject('This Is authentications Mail')->view('login_pro::mails.mailView');
     }
 }
