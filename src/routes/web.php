@@ -44,9 +44,9 @@ Route::prefix('user')->group(function () {
 Route::middleware('authentications:isLogin')->group(function () {
     Route::prefix('user')->group(function () {
 
-        Route::get('dashboard', function () {
+        Route::get('dashboard_test', function () {
             return 'This Is Dashboard!';
-        })->name('dashboard');
+        })->name('dashboard_test');
 
         Route::post('login_as_second_user', [loginAsSecondUserController::class, 'saveSecondUserToken'])->name('loginSecondUserPost');
 
