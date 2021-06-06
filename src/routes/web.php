@@ -24,7 +24,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::middleware('authentications')->group(function () {
 Route::prefix('user')->group(function () {
 
     Route::get('login', [loginUserController::class, 'index'])->name('loginUserGet');
@@ -41,8 +40,6 @@ Route::prefix('user')->group(function () {
     Route::get('2stepCheck', [twoStepAuthUserController::class, 'indexCheck'])->name('2stepCheckGet');
     Route::post('2stepCheck', [twoStepAuthUserController::class, 'check'])->name('2stepCheckPost');
 });
-//});
-
 
 Route::middleware('authentications:isLogin')->group(function () {
     Route::prefix('user')->group(function () {

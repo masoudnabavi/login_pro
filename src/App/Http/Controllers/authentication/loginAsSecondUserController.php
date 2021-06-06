@@ -30,8 +30,9 @@ class loginAsSecondUserController extends Controller
                 Cookie::make('secondUserToken', $this->LoginAsSecond($request->user_id), 3600);
                 break;
         }
+
         //Return To Dashboard
         //return redirect()->route('clientAreaDashboard');
-        return getLoginUserDataController::getLoginUserId();
+        return getLoginUserDataController::getLoginUserData();
     }
 }

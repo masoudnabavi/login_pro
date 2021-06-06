@@ -9,7 +9,7 @@ use Session;
 
 class getLoginUserDataController extends Controller
 {
-    public static function getLoginUserId()
+    public static function getLoginUserData()
     {
 
         switch (env('useCookie')) {
