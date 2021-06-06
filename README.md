@@ -2,7 +2,7 @@
 [![Issues](https://img.shields.io/github/issues/masoudnabavi/login_pro?label=Issues)](https://img.shields.io/github/issues/masoudnabavi/login_pro)
 [![Stars](https://img.shields.io/github/stars/masoudnabavi/login_pro)](https://img.shields.io/github/stars/masoudnabavi/login_pro)
 
-This is a library for logging in and authenticating in the system, which has features such as: login with password and without password, login with username, mobile, code, email, working with this library is very easy.
+This is a library for logging in and authenticating in the system, which has features such as: login with password and without password, login with username, mobile, code, email,  detect user`s browser, OS and IpAddress whene logging in, Ability to log in as a secondary user(Like WHMCS Panel)
 
 ## Install
 ```bash
